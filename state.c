@@ -291,8 +291,6 @@ rs_write_string_index(FILE *savef, const char *master[], int max, const char *st
     for(i = 0; i < max; i++)
         if (str == master[i])
             rs_write_int(savef, i);
-
-    rs_write_int(savef,-1);
 }
 
 void
@@ -448,8 +446,6 @@ rs_write_stone_index(FILE *savef, const STONE master[], int max, const char *str
     for(i = 0; i < max; i++)
         if (str == master[i].st_name)
             rs_write_int(savef,i);
-
-    rs_write_int(savef,-1);
 }
 
 void
