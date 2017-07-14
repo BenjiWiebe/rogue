@@ -26,7 +26,7 @@
 #define MAXROOMS	9
 #define MAXTHINGS	9
 #define MAXOBJ		9
-#define MAXPACK		23
+#define MAXPACK		200
 #define MAXTRAPS	10
 #define AMULETLEVEL	26
 #define	NUMTHINGS	7	/* number of types of things */
