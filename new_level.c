@@ -15,7 +15,7 @@
 #include <string.h>
 #include "rogue.h"
 
-#define TREAS_ROOM 20	/* one chance in TREAS_ROOM for a treasure room */
+#define TREAS_ROOM 1	/* one chance in TREAS_ROOM for a treasure room */
 #define MAXTREAS 10	/* maximum number of treasures in a treasure room */
 #define MINTREAS 2	/* minimum number of treasures in a treasure room */
 
